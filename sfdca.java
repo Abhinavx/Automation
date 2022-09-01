@@ -14,8 +14,8 @@ public class sfdca {
 		//WebDriverWait wait = new WebDriverWait(d, Duration.ofSeconds(60));
 		d.get("https://usertesting.lightning.force.com/lightning/r/Report/00O6T0000064JLYUA2/view?queryScope=userFolders%5C");
 		d.findElement(By.id("idp_section_buttons")).click();
-		d.findElement(By.id("okta-signin-username")).sendKeys("animbalkar@usertesting.com");
-		d.findElement(By.id("okta-signin-password")).sendKeys("Zapple.apple!1");
+		d.findElement(By.id("okta-signin-username")).sendKeys("creds");
+		d.findElement(By.id("okta-signin-password")).sendKeys("creds");
 		
 		d.findElement(By.id("okta-signin-submit")).click();
 		
